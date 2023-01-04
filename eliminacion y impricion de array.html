@@ -1,0 +1,35 @@
+<html>
+<head>
+<script language=JavaScript>
+         var cuidad=prompt("Ingrese una cuidad.");
+		 var travel = ["Salinas","Manabi","Quevedo","Guaranda","Esmeraldas"];
+		 var areglo = [];
+         function hola ()
+
+         {
+document.getElementById("christopher1").innerHTML = travel.join("->");
+travel.pop();
+document.getElementById("christopher2").innerHTML = travel.join(" -> ");
+travel.pop();
+document.getElementById("christopher3").innerHTML = travel.join(" -> ");
+travel.pop();
+document.getElementById("christopher4").innerHTML = travel.join(" -> ");
+travel.pop();
+document.getElementById("christopher5").innerHTML = travel.join(" -> ");
+}
+</script>
+</head>
+<body>
+<p id="christopher1"></p>
+<p id="christopher2"></p>
+<p id="christopher3"></p>
+<p id="christopher4"></p>
+<p id="christopher5"></p>
+  </body>
+	    <td>
+		<input type=button value=Ejecutar name=botton onclick="hola()"></input> 
+        <td><p><b>Desarrollado por: </b>Christopher Morales </p></td>
+
+		</body>
+
+</html>	 
